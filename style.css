@@ -1,0 +1,92 @@
+.container {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 10px;
+  border-color: black;
+  margin-top: 30px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, center;
+  position: relative;
+  width: 6000%;
+}
+h2 {
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.date {
+  font-size: 20px;
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+}
+img {
+  position: relative;
+  top: 0;
+  left: 400px;
+  display: inline;
+}
+
+form {
+  margin-left: 200px;
+  padding: 20px;
+}
+p {
+  font-style: italic;
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: lighter;
+}
+button {
+  padding: 5px;
+}
+.card-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.clouds,
+.sun,
+.cloud {
+  font-size: 60px;
+  text-align: center;
+}
+.sun {
+  color: #f8b62e;
+}
+.cloud {
+  color: darkgray;
+}
+.clouds {
+  color: gray;
+}
+
+.temperature {
+  font-size: 150px;
+  margin-bottom: 0px;
+  display: inline;
+  font-family: "Work Sans", sans-serif;
+}
+
+.weather-icon {
+  display: inline;
+  margin-left: -300px;
+}
+
+.card-title {
+  font-family: Helvetica Neue, sans-serif;
+  text-align: right;
+  font-weight: lighter;
+}
+
+.temp-unit {
+  font-family: Helvetica Neue, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
