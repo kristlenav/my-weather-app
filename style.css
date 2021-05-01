@@ -81,7 +81,9 @@ a {
 .conditions {
   margin-bottom: 0px;
   display: inline;
-  font-family: "Work Sans", sans-serif;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .weather-icon {
