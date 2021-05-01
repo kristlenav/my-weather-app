@@ -49,7 +49,7 @@ function showTemp(response) {
   document.querySelector("h2").innerHTML = response.data.name;
   document.querySelector(".temperature").innerHTML = `${Math.round(
     response.data.main.temp
-  )}°C`;
+  )}`;
 }
 function showLocation(position) {
   let apiKey = "c2fda8d84eb4fa12e08ab6659668b7ee";

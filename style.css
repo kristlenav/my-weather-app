@@ -94,3 +94,10 @@ a {
   text-align: center;
   font-weight: lighter;
 }
+
+.units {
+  font-family: Helvetica Neue, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 50px;
+}
