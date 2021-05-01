@@ -64,6 +64,8 @@ function showFarenheitTemp(event) {
   event.preventDefault();
   let farenheitTemp = (43 * 9) / 5 + 32;
   alert(farenheitTemp);
+  let tempElement = document.querySelector("#temperature");
+  tempElement.innerHTML = math.round(farenheitTemp);
 }
 
 let farenheitLink = document.querySelector("#heit");
