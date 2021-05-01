@@ -63,7 +63,6 @@ navigator.geolocation.getCurrentPosition(showLocation);
 function showFarenheitTemp(event) {
   event.preventDefault();
   let farenheitTemp = (43 * 9) / 5 + 32;
-  alert(farenheitTemp);
   let tempElement = document.querySelector("#col-4 temperature");
   tempElement.innerHTML = math.round(farenheitTemp);
 }
