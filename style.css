@@ -46,7 +46,7 @@ button {
   padding: 5px;
 }
 
-a :active {
+a {
   text-decoration: none;
 }
 .card-text {

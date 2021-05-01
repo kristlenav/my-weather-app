@@ -59,3 +59,11 @@ function showLocation(position) {
   axios.get(apiUrl).then(showTemp);
 }
 navigator.geolocation.getCurrentPosition(showLocation);
+
+function showFarenheitTemp(event) {
+  event.preventDefault();
+  alert("Link clicked");
+}
+
+let farenheitLink = document.querySelector("#heit");
+farenheitLink.addEventListener("click", showFarenheitTemp);
