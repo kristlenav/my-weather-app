@@ -45,6 +45,10 @@ p {
 button {
   padding: 5px;
 }
+
+a :active {
+  text-decoration: none;
+}
 .card-text {
   font-family: "Work Sans", sans-serif;
   font-size: 50px;
