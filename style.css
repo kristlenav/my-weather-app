@@ -78,12 +78,13 @@ a {
   font-family: "Work Sans", sans-serif;
 }
 
-.conditions {
-  margin-bottom: 0px;
+ul {
   display: inline;
   font-family: Helvetica Neue, sans-serif;
   font-size: 20px;
   font-weight: lighter;
+  float: right;
+  margin-left: -300px;
 }
 
 .weather-icon {
