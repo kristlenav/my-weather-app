@@ -79,10 +79,12 @@ a {
 }
 
 .conditions {
-  display: inline-block;
+  display: inline;
   font-family: Helvetica Neue, sans-serif;
   font-size: 20px;
   font-weight: lighter;
+  margin-left: -800px;
+  margin-top: 0px;
 }
 
 .weather-icon {
